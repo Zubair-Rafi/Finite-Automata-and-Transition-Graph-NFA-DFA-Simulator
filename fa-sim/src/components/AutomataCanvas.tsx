@@ -91,7 +91,7 @@ function AutomataCanvas({
   return (
     <section className="canvas-shell panel">
       <div className="canvas-header">
-        <h1>Finite Automata Studio</h1>
+        <h1>Finite Automata Studio by Zubair Rafi</h1>
         <p>
           {activeTool === 'add-transition' && transitionSource
             ? `Transition source selected: ${transitionSource}. Click destination state.`
